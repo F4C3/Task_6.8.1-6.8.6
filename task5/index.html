@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Start. 3 задача</title>
+    <style>
+
+    body {
+        background-color: teal;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        
+    }  
+
+    p:last-of-type {
+        border: 1px solid black; padding: 0 4px; 
+        width: 160px;
+        height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+        margin-left: 45px;
+    }
+    
+    a {
+        margin-left: 2%;
+    }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="#">
+            <label>
+                Текст
+                <input type="text" placeholder="Введите текст">
+            </label><br><br>
+            <button  type="submit">
+                Вывести текст в консоль и удалить из формы
+            </button>
+        </form>
+        <br>
+        <p>Введенный текст:</p>
+        <p id="duplicateField"></p><br>
+        <a href="../index.html" style="font-size: 40px;">&#10004;</a>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

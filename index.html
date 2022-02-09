@@ -3,24 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>JS-Start</title>
+    <style>
+      body {
+        background-color: teal;
+        
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+      }
+      
+      ul.list li {
+        display: inline;
+        font-size: xx-large;
+        margin-right: 5px;
+        border: 1px solid black;
+        background-color: rgb(156, 150, 69);
+        padding: 3px;
+        
+      }
+
+      a {
+        text-decoration:none;
+        color: black;
+      }
+
+
+    </style>
 </head>
 <body>
-<ul>
-  <li>
-    <a href="task1/index.html">Задача 1</a>
-  </li>
-  <li>
-    <a href="task2/index.html">Задача 2</a>
-  </li>
-  <li>
-    <a href="task3/index.html">Задача 3</a>
-  </li>
-  <li>
-    <a href="task4/index.html">Задача 4</a>
-  </li>
-  <li>
-    <a href="task5/index.html">Задача 5</a>
-  </li>
-</ul>
+  <div class="container">
+    <ul class="list">
+      <li>
+        <a href="task1/index.html">Привет, мир</a>
+      </li>
+      <li>
+        <a href="task2/index.html">Подсказка</a>
+      </li>
+      <li>
+        <a href="task3/index.html">Светофор</a>
+      </li>
+      <li>
+        <a href="task4/index.html">Ввод текста</a>
+      </li>
+      <li>
+        <a href="task5/index.html">Перехват формы</a>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>
